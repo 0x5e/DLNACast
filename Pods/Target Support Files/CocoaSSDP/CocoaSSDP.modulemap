@@ -1,0 +1,6 @@
+framework module CocoaSSDP {
+  umbrella header "CocoaSSDP-umbrella.h"
+
+  export *
+  module * { export * }
+}

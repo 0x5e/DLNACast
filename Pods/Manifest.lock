@@ -1,0 +1,21 @@
+PODS:
+  - CocoaAsyncSocket (7.6.1)
+  - CocoaSSDP (0.1.0):
+    - CocoaAsyncSocket
+  - KissXML (5.2.0)
+  - SOAPEngine (1.31)
+
+DEPENDENCIES:
+  - CocoaSSDP
+  - KissXML
+  - SOAPEngine
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  CocoaSSDP: ef376c3343aa8971c3eb09eba92a2c336ca7cd79
+  KissXML: 1c1eeeb6b94e4522cd2f2373e5d0d03c9227738f
+  SOAPEngine: eac166d07cb20579db9a476660d51a0d73271869
+
+PODFILE CHECKSUM: 85d4d53037296c057b6573a884dab840ea7b04d9
+
+COCOAPODS: 1.2.1

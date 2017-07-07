@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C8C903FF892B63F4EEAD5BC /* Pods_DLNACast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135C6A0E2ECC4A472DCF8A11 /* Pods_DLNACast.framework */; };
 		6D6823821F0EB66B00FE6AF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6823811F0EB66B00FE6AF5 /* AppDelegate.swift */; };
 		6D6823841F0EB66B00FE6AF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6823831F0EB66B00FE6AF5 /* ViewController.swift */; };
 		6D6823861F0EB66B00FE6AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6823851F0EB66B00FE6AF5 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		135C6A0E2ECC4A472DCF8A11 /* Pods_DLNACast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLNACast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFBB63898D1B3B1A61768E1 /* Pods-DLNACast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLNACast.release.xcconfig"; path = "Pods/Target Support Files/Pods-DLNACast/Pods-DLNACast.release.xcconfig"; sourceTree = "<group>"; };
 		6D68237E1F0EB66B00FE6AF5 /* DLNACast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLNACast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6823811F0EB66B00FE6AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D6823831F0EB66B00FE6AF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +24,7 @@
 		6D6823881F0EB66B00FE6AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D68238A1F0EB66B00FE6AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D68238B1F0EB66B00FE6AF5 /* DLNACast.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DLNACast.entitlements; sourceTree = "<group>"; };
+		BE21000D93C45384488B711A /* Pods-DLNACast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLNACast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DLNACast/Pods-DLNACast.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8C903FF892B63F4EEAD5BC /* Pods_DLNACast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +44,8 @@
 			children = (
 				6D6823801F0EB66B00FE6AF5 /* DLNACast */,
 				6D68237F1F0EB66B00FE6AF5 /* Products */,
+				B0143301561B27D7BA69942F /* Pods */,
+				E97FBF92B04312C8767D6958 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +70,23 @@
 			path = DLNACast;
 			sourceTree = "<group>";
 		};
+		B0143301561B27D7BA69942F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE21000D93C45384488B711A /* Pods-DLNACast.debug.xcconfig */,
+				2CFBB63898D1B3B1A61768E1 /* Pods-DLNACast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E97FBF92B04312C8767D6958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				135C6A0E2ECC4A472DCF8A11 /* Pods_DLNACast.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -70,9 +94,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D68238E1F0EB66B00FE6AF5 /* Build configuration list for PBXNativeTarget "DLNACast" */;
 			buildPhases = (
+				6C0DDB0FB3F0FB52DDAE1C17 /* [CP] Check Pods Manifest.lock */,
 				6D68237A1F0EB66B00FE6AF5 /* Sources */,
 				6D68237B1F0EB66B00FE6AF5 /* Frameworks */,
 				6D68237C1F0EB66B00FE6AF5 /* Resources */,
+				F84BD0D0C935A47E239339A1 /* [CP] Embed Pods Frameworks */,
+				1EB941D3D157AB72A06689E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +154,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EB941D3D157AB72A06689E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DLNACast/Pods-DLNACast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C0DDB0FB3F0FB52DDAE1C17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F84BD0D0C935A47E239339A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DLNACast/Pods-DLNACast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D68237A1F0EB66B00FE6AF5 /* Sources */ = {
@@ -204,6 +279,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -251,11 +327,13 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 			};
 			name = Release;
 		};
 		6D68238F1F0EB66B00FE6AF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE21000D93C45384488B711A /* Pods-DLNACast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DLNACast/DLNACast.entitlements;
@@ -271,6 +349,7 @@
 		};
 		6D6823901F0EB66B00FE6AF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CFBB63898D1B3B1A61768E1 /* Pods-DLNACast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DLNACast/DLNACast.entitlements;
@@ -303,6 +382,7 @@
 				6D6823901F0EB66B00FE6AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
