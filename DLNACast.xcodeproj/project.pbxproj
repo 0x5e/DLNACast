@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		1C8C903FF892B63F4EEAD5BC /* Pods_DLNACast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135C6A0E2ECC4A472DCF8A11 /* Pods_DLNACast.framework */; };
+		6D2C76291F0FBD4200EF1679 /* DLNAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C76281F0FBD4200EF1679 /* DLNAService.swift */; };
+		6D2C762B1F0FBFF900EF1679 /* DLNADevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C762A1F0FBFF900EF1679 /* DLNADevice.swift */; };
 		6D6823821F0EB66B00FE6AF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6823811F0EB66B00FE6AF5 /* AppDelegate.swift */; };
 		6D6823841F0EB66B00FE6AF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6823831F0EB66B00FE6AF5 /* ViewController.swift */; };
 		6D6823861F0EB66B00FE6AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6823851F0EB66B00FE6AF5 /* Assets.xcassets */; };
-		6D6823891F0EB66B00FE6AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6823871F0EB66B00FE6AF5 /* Main.storyboard */; };
+		6D6823C61F0F91F900FE6AF5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D6823C51F0F91F900FE6AF5 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		135C6A0E2ECC4A472DCF8A11 /* Pods_DLNACast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLNACast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFBB63898D1B3B1A61768E1 /* Pods-DLNACast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLNACast.release.xcconfig"; path = "Pods/Target Support Files/Pods-DLNACast/Pods-DLNACast.release.xcconfig"; sourceTree = "<group>"; };
+		6D2C76281F0FBD4200EF1679 /* DLNAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLNAService.swift; sourceTree = "<group>"; };
+		6D2C762A1F0FBFF900EF1679 /* DLNADevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLNADevice.swift; sourceTree = "<group>"; };
 		6D68237E1F0EB66B00FE6AF5 /* DLNACast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLNACast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6823811F0EB66B00FE6AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D6823831F0EB66B00FE6AF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D6823851F0EB66B00FE6AF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D6823881F0EB66B00FE6AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D68238A1F0EB66B00FE6AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D68238B1F0EB66B00FE6AF5 /* DLNACast.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DLNACast.entitlements; sourceTree = "<group>"; };
+		6D6823C51F0F91F900FE6AF5 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		BE21000D93C45384488B711A /* Pods-DLNACast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLNACast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DLNACast/Pods-DLNACast.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,8 +66,10 @@
 			children = (
 				6D6823811F0EB66B00FE6AF5 /* AppDelegate.swift */,
 				6D6823831F0EB66B00FE6AF5 /* ViewController.swift */,
+				6D2C76281F0FBD4200EF1679 /* DLNAService.swift */,
+				6D2C762A1F0FBFF900EF1679 /* DLNADevice.swift */,
+				6D6823C51F0F91F900FE6AF5 /* MainMenu.xib */,
 				6D6823851F0EB66B00FE6AF5 /* Assets.xcassets */,
-				6D6823871F0EB66B00FE6AF5 /* Main.storyboard */,
 				6D68238A1F0EB66B00FE6AF5 /* Info.plist */,
 				6D68238B1F0EB66B00FE6AF5 /* DLNACast.entitlements */,
 			);
@@ -149,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D6823861F0EB66B00FE6AF5 /* Assets.xcassets in Resources */,
-				6D6823891F0EB66B00FE6AF5 /* Main.storyboard in Resources */,
+				6D6823C61F0F91F900FE6AF5 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,23 +214,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D2C76291F0FBD4200EF1679 /* DLNAService.swift in Sources */,
 				6D6823841F0EB66B00FE6AF5 /* ViewController.swift in Sources */,
+				6D2C762B1F0FBFF900EF1679 /* DLNADevice.swift in Sources */,
 				6D6823821F0EB66B00FE6AF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6D6823871F0EB66B00FE6AF5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D6823881F0EB66B00FE6AF5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6D68238C1F0EB66B00FE6AF5 /* Debug */ = {

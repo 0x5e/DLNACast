@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13122.17"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="6hl-FF-YMc" id="5Cm-nL-2yR"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="6hl-FF-YMc" userLabel="Delegate" customClass="AppDelegate" customModule="DLNACast" customModuleProvider="target">
+            <connections>
+                <outlet property="separatorItem" destination="Zjs-qx-3UV" id="YXw-sW-Ezk"/>
+                <outlet property="statusMenu" destination="W48-6f-4Dl" id="x1z-R0-9F9"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu title="Edit" id="W48-6f-4Dl" userLabel="Status Menu">
+            <items>
+                <menuItem title="DLNA: N/A" enabled="NO" id="dRJ-4n-Yzg" userLabel="Status">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="undo:" target="-1" id="M6e-cu-g7V"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Open DLNA" id="WUJ-BW-gIG" userLabel="Switch">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="toggleAction:" target="6hl-FF-YMc" id="AgM-RH-QwE"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="Zjs-qx-3UV" userLabel="--------"/>
+                <menuItem title="Loading..." hidden="YES" enabled="NO" id="tD8-t4-muT" userLabel="Loading...">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="S9r-PU-tmA" userLabel="--------"/>
+                <menuItem title="Setting" keyEquivalent="，" id="4gz-ab-CAk" userLabel="Setting">
+                    <connections>
+                        <action selector="settingAction:" target="6hl-FF-YMc" id="BUA-zp-8g5"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="About" id="l7C-k1-ZCi" userLabel="About">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="aboutAction:" target="6hl-FF-YMc" id="Wkz-ys-Y6Z"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="uyl-h8-XO2" userLabel="--------"/>
+                <menuItem title="Quit" keyEquivalent="q" id="fM9-0B-Jae" userLabel="Quit">
+                    <connections>
+                        <action selector="terminate:" target="-2" id="OPL-2Z-tyo"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <connections>
+                <outlet property="delegate" destination="6hl-FF-YMc" id="ivW-Fo-p2l"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="165.5"/>
+        </menu>
+    </objects>
+</document>
