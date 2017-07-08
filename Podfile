@@ -8,6 +8,5 @@ target 'DLNACast' do
   # Pods for DLNACast
   pod 'CocoaSSDP'
   pod 'KissXML'
-  pod 'SOAPEngine'
   
 end

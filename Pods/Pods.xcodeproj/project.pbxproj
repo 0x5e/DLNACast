@@ -7,44 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07584ED7D6820619D849D2272EFDA5A0 /* SSDPServiceTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB1D0E83BD0A85626CA944E9680CEA5 /* SSDPServiceTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BC1543B0BADF0D4CE2A0DA755CC34C8 /* SSDPService.h in Headers */ = {isa = PBXBuildFile; fileRef = 863DC3BE9B8690F0E85C8BCE3B33D1B8 /* SSDPService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20B72F2C70804F952581485E8CF54157 /* CocoaSSDP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D46398B2EEC9E6CF37CEA9FB0FB0F9E9 /* CocoaSSDP-dummy.m */; };
-		2273402748EAED7DA77C626D64136F3B /* DDXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AF08DEC48CFEB576A7DE628D09E42B /* DDXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07584ED7D6820619D849D2272EFDA5A0 /* SSDPServiceTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B352CAA6F033179FE84D9ACFF9CB5E /* SSDPServiceTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BC1543B0BADF0D4CE2A0DA755CC34C8 /* SSDPService.h in Headers */ = {isa = PBXBuildFile; fileRef = C156F63ABD0B9F3B0AB110B9F58CD551 /* SSDPService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20B72F2C70804F952581485E8CF54157 /* CocoaSSDP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC416386B069EA57701EC3B5654333A /* CocoaSSDP-dummy.m */; };
+		2273402748EAED7DA77C626D64136F3B /* DDXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B30009A03C4411C6DAC6B66ECDBC6533 /* DDXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3144345774E1197710DF187304F8C5F4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36C325C07EE05B776AC315BAC42FEF8 /* Security.framework */; };
 		38BB392F19A8FCBF31E0AC061F0F6B20 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE208E995C148E77C8DB17519B692E2 /* Cocoa.framework */; };
-		3BAB6832795015E22C22E58FD994A00E /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9412F1F5ED4F1CDAD138A1557E65A46C /* DDXMLElement.m */; };
-		57AC0006088BCF8A992B2906065CC92D /* CocoaSSDP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD661BCB450E33065045B478E22DC0F4 /* CocoaSSDP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B17E9BBF23B52898D320490EABAC9F1 /* SSDPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 497A69DD51485005B0D1EF3D28E47255 /* SSDPService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3BAB6832795015E22C22E58FD994A00E /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F43FB12B29D8459CC0C47D9659FA8B28 /* DDXMLElement.m */; };
+		57AC0006088BCF8A992B2906065CC92D /* CocoaSSDP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 424929836EAA9E597F7E41FDF5A57445 /* CocoaSSDP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B17E9BBF23B52898D320490EABAC9F1 /* SSDPService.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDB569033D3D60899F058BBE37C7C8F /* SSDPService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		5D5C814E352669F6687CA139C64594E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE208E995C148E77C8DB17519B692E2 /* Cocoa.framework */; };
-		6238395972F99B03E99E76BBD08745EE /* SSDPServiceBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A1A1388930820CC184B15A3DDF7134 /* SSDPServiceBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		634E524478FC62DA6449A50AC5E91F36 /* NSString+DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BF2A6229C795EEE929C6B55E4D3ACC /* NSString+DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6238395972F99B03E99E76BBD08745EE /* SSDPServiceBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2A6CA697082A879CC705EF2962C68F /* SSDPServiceBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		634E524478FC62DA6449A50AC5E91F36 /* NSString+DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3DE8577C5981179B13E5DB32C2FD15 /* NSString+DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		669A1CE30DE7A112B53772F5EF0388B0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE208E995C148E77C8DB17519B692E2 /* Cocoa.framework */; };
-		69D7D3E7F4D1BAC80BDAD34EF354B203 /* DDXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = EEAA4B228A1E0412F4114A7423764D1E /* DDXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69D7D3E7F4D1BAC80BDAD34EF354B203 /* DDXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = E1EFDB4CF69BFFAEDF97FD681FA05B37 /* DDXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		714ADFC6DD87050F06134BCBF1CFAC4A /* Pods-DLNACast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 775080FF1FE5E16469E3A013EA992FAD /* Pods-DLNACast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		781C271B7443AD52B0979D3732ACD05F /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D064E431DFCA2A069DC8C71ED4C10AE /* CoreServices.framework */; };
-		7E33224835C0F7627E8F181DC73ACCF7 /* SSDPServiceTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 03562BAC079A85F9CA1E38411F079CD7 /* SSDPServiceTypes.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 551446865805F0708A801361A5E0F9EE /* CocoaAsyncSocket-dummy.m */; };
-		7F593A88C9B69FB822780B4E47A2D732 /* KissXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 368B92EF3FE6A87F89393B4565BDE8F6 /* KissXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B750838AF3E89E7B6C94C05A09BA1911 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8F82ADF51AA29D18DDF5361D7F1D0C3D /* DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2F64B8BE68F89DFEF232E5F450D660 /* DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99116B239727B4D6A149BD9F037558E2 /* DDXMLPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4CA7F5C067ED0A5092D5FED7C75FEC /* DDXMLPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		A59C222B7B3CD060CA900118402F01D1 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 487310903C10BFD4975C7DA218929E0B /* DDXMLElementAdditions.m */; };
-		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 810BFE45983912CD7DD20ADCE123A48A /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 91DB072FD03288EEC20EFEE95AA5623F /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96929E0AD4F3ED99B4CB0FBDC23E22 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B47FF4927EED468A5DDC6A4E8A0D6D83 /* DDXMLElementAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F2C37547F6160E29BC9A10AE64F696EA /* DDXMLElementAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B79F8FEB4F1D50CE4CCABD72AFFE05E1 /* KissXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D26D235667A97BCB72250967B62C900D /* KissXML-dummy.m */; };
-		B8FECF4D79FB28991E0A0872C7501CCF /* KissXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB14A53E673CF69011813C7A036F2BE /* KissXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E33224835C0F7627E8F181DC73ACCF7 /* SSDPServiceTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED80945D1EC69160DDC38BCB24BB081 /* SSDPServiceTypes.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F718788D75B7D2C4A2EA3453251AB2 /* CocoaAsyncSocket-dummy.m */; };
+		7F593A88C9B69FB822780B4E47A2D732 /* KissXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FACC2D9622153B8360190B2486AFB08 /* KissXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B84DD4417996669FC61A209CD6705B06 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8F82ADF51AA29D18DDF5361D7F1D0C3D /* DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = A6DDE5DB3295FAD5CF11876AC7772DF1 /* DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99116B239727B4D6A149BD9F037558E2 /* DDXMLPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 344F185654A618B3584811F7E6FAF92D /* DDXMLPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A59C222B7B3CD060CA900118402F01D1 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CE232C2B9CF8705D25E235F0DE24D /* DDXMLElementAdditions.m */; };
+		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 80674A72A0B47DE4B13094B4AE4E3D14 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB1B2202786EFDC104BF6C1B69089B8 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A8592D8B5F931BE3000BB6468DAAC /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B47FF4927EED468A5DDC6A4E8A0D6D83 /* DDXMLElementAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C851B034888EA9CB6F2AEC5F0F23D6 /* DDXMLElementAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B79F8FEB4F1D50CE4CCABD72AFFE05E1 /* KissXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F317D74B0FD085DA17DD289BAFD45C0D /* KissXML-dummy.m */; };
+		B8FECF4D79FB28991E0A0872C7501CCF /* KissXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 824DD80F6DC6409DD9CC4E1FAFBE6BE2 /* KissXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C48AB028BF64F558C4671ADA227E9F40 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE208E995C148E77C8DB17519B692E2 /* Cocoa.framework */; };
-		D286F67594D4D1BA3D7F8557FE2C3521 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = E289DBD30DE95AD4F16C64EE67BFCA0F /* NSString+DDXML.m */; };
-		D3781D87CC3D8D0E58F1E70C4EF53A16 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E25E0D8395EF7E6E95974FE344A4D93 /* DDXMLNode.m */; };
-		D728A20B6FB6E2D23A728AB2C530CC86 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB342ED55B74C2A8D29CB71EAB4DEF2 /* DDXMLDocument.m */; };
+		D286F67594D4D1BA3D7F8557FE2C3521 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD252660F151680C9A14B5357C3C46A /* NSString+DDXML.m */; };
+		D3781D87CC3D8D0E58F1E70C4EF53A16 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F79134D3EDEB41E49289B8AE5E0B40 /* DDXMLNode.m */; };
+		D728A20B6FB6E2D23A728AB2C530CC86 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE2D53D82E7392AEC04738338E7F5D3 /* DDXMLDocument.m */; };
 		DE193BE4F003615276BCCA85984DB5F1 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5780C355502C167D60B20F8931FB1F65 /* CocoaAsyncSocket.framework */; };
-		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 184D733261811CE465B1ACBC6717D92F /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 329D52F35FD709F7066A1BD71E57BE40 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6F0C0925A1051B2FF5F0D3F43872785 /* Pods-DLNACast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 616C2300C0258A0D1A74FB9B762ABC7F /* Pods-DLNACast-dummy.m */; };
-		F2E6EBFD83A1D6940B9827218915DA6B /* DDXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C8649EDB609592B354B63F2A074568 /* DDXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F70DF3A267FBC14CA350351B707EAE5A /* SSDPServiceBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 941573B4328F0290C7585BDFCF2C7064 /* SSDPServiceBrowser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F2E6EBFD83A1D6940B9827218915DA6B /* DDXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = E12FCDF190EAA02BA13B9533FAE3B79D /* DDXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70DF3A267FBC14CA350351B707EAE5A /* SSDPServiceBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1AF57747C10B62A02B76A5B18F975B /* SSDPServiceBrowser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,67 +80,65 @@
 
 /* Begin PBXFileReference section */
 		0106ABE53FC438B1390616C373997B8A /* Pods-DLNACast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DLNACast.modulemap"; sourceTree = "<group>"; };
-		03562BAC079A85F9CA1E38411F079CD7 /* SSDPServiceTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSDPServiceTypes.m; path = Classes/SSDPServiceTypes.m; sourceTree = "<group>"; };
-		16BCC2C7184FB35528BA8131363BA253 /* SOAPEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAPEngine.h; path = SOAPEngineOSX.framework/Versions/A/Headers/SOAPEngine.h; sourceTree = "<group>"; };
-		1704DC7B8721EDDAAE243B0B86BAEFFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		184D733261811CE465B1ACBC6717D92F /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		0A3DE8577C5981179B13E5DB32C2FD15 /* NSString+DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DDXML.h"; path = "KissXML/Categories/NSString+DDXML.h"; sourceTree = "<group>"; };
+		14785274DBDDB69E55603D2EE213CCC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152DF977F00017B04C73241C5A14AB87 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		17D6EC87CED7A8D7CE977A0C758769A2 /* KissXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KissXML-prefix.pch"; sourceTree = "<group>"; };
 		1B71EF93B4AF024583931C1E333096F8 /* KissXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KissXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E24EAC024C41844896E159E283C1E72 /* Pods-DLNACast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLNACast.debug.xcconfig"; sourceTree = "<group>"; };
-		2E25E0D8395EF7E6E95974FE344A4D93 /* DDXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLNode.m; path = KissXML/DDXMLNode.m; sourceTree = "<group>"; };
-		33A1A1388930820CC184B15A3DDF7134 /* SSDPServiceBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPServiceBrowser.h; path = Classes/SSDPServiceBrowser.h; sourceTree = "<group>"; };
-		368B92EF3FE6A87F89393B4565BDE8F6 /* KissXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KissXML.h; path = KissXML/KissXML.h; sourceTree = "<group>"; };
-		3B39D3C8E44374D09AF94BF0C73A82CA /* KissXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KissXML.modulemap; sourceTree = "<group>"; };
-		3B5B13DB88B6899B7B18FFA8809BE4B9 /* KissXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KissXML-prefix.pch"; sourceTree = "<group>"; };
+		329D52F35FD709F7066A1BD71E57BE40 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		344F185654A618B3584811F7E6FAF92D /* DDXMLPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLPrivate.h; path = KissXML/Private/DDXMLPrivate.h; sourceTree = "<group>"; };
 		3BE208E995C148E77C8DB17519B692E2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		41D30C7321FB498FA7C9AC23F71A35D2 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		424929836EAA9E597F7E41FDF5A57445 /* CocoaSSDP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaSSDP-umbrella.h"; sourceTree = "<group>"; };
 		448ABDBEDF996135D913D9BC6B127512 /* Pods-DLNACast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLNACast.release.xcconfig"; sourceTree = "<group>"; };
-		487310903C10BFD4975C7DA218929E0B /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElementAdditions.m; path = KissXML/Additions/DDXMLElementAdditions.m; sourceTree = "<group>"; };
-		497A69DD51485005B0D1EF3D28E47255 /* SSDPService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSDPService.m; path = Classes/SSDPService.m; sourceTree = "<group>"; };
-		49BF2A6229C795EEE929C6B55E4D3ACC /* NSString+DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DDXML.h"; path = "KissXML/Categories/NSString+DDXML.h"; sourceTree = "<group>"; };
-		4C7BBBC88493A456605096438831F126 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DB342ED55B74C2A8D29CB71EAB4DEF2 /* DDXMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLDocument.m; path = KissXML/DDXMLDocument.m; sourceTree = "<group>"; };
-		551446865805F0708A801361A5E0F9EE /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		4FACC2D9622153B8360190B2486AFB08 /* KissXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KissXML.h; path = KissXML/KissXML.h; sourceTree = "<group>"; };
 		5780C355502C167D60B20F8931FB1F65 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D064E431DFCA2A069DC8C71ED4C10AE /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		60B352CAA6F033179FE84D9ACFF9CB5E /* SSDPServiceTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPServiceTypes.h; path = Classes/SSDPServiceTypes.h; sourceTree = "<group>"; };
 		616C2300C0258A0D1A74FB9B762ABC7F /* Pods-DLNACast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DLNACast-dummy.m"; sourceTree = "<group>"; };
-		69DA1F3EC2B3CDEFD4FD0A5498926B88 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
-		6B954952A815EC0389290E788D373007 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		66734EA3FE4DF6B3163818ED255706F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AC416386B069EA57701EC3B5654333A /* CocoaSSDP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaSSDP-dummy.m"; sourceTree = "<group>"; };
 		74DA89E07865C5BB5B6C6F76BCE124E0 /* CocoaSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaSSDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		75AF08DEC48CFEB576A7DE628D09E42B /* DDXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLNode.h; path = KissXML/DDXMLNode.h; sourceTree = "<group>"; };
+		76D63BDCD45483C7B764F95B01DD2FC3 /* CocoaSSDP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaSSDP.xcconfig; sourceTree = "<group>"; };
 		775080FF1FE5E16469E3A013EA992FAD /* Pods-DLNACast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DLNACast-umbrella.h"; sourceTree = "<group>"; };
-		7FB14A53E673CF69011813C7A036F2BE /* KissXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KissXML-umbrella.h"; sourceTree = "<group>"; };
-		810BFE45983912CD7DD20ADCE123A48A /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
-		863DC3BE9B8690F0E85C8BCE3B33D1B8 /* SSDPService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPService.h; path = Classes/SSDPService.h; sourceTree = "<group>"; };
+		7ED80945D1EC69160DDC38BCB24BB081 /* SSDPServiceTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSDPServiceTypes.m; path = Classes/SSDPServiceTypes.m; sourceTree = "<group>"; };
+		80674A72A0B47DE4B13094B4AE4E3D14 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		824DD80F6DC6409DD9CC4E1FAFBE6BE2 /* KissXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KissXML-umbrella.h"; sourceTree = "<group>"; };
+		8B2CE232C2B9CF8705D25E235F0DE24D /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElementAdditions.m; path = KissXML/Additions/DDXMLElementAdditions.m; sourceTree = "<group>"; };
 		9188A1B2A42BD57A70860FC89C8AE012 /* Pods-DLNACast-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DLNACast-acknowledgements.markdown"; sourceTree = "<group>"; };
-		91DB072FD03288EEC20EFEE95AA5623F /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9412F1F5ED4F1CDAD138A1557E65A46C /* DDXMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElement.m; path = KissXML/DDXMLElement.m; sourceTree = "<group>"; };
-		941573B4328F0290C7585BDFCF2C7064 /* SSDPServiceBrowser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSDPServiceBrowser.m; path = Classes/SSDPServiceBrowser.m; sourceTree = "<group>"; };
-		98B79467BB2DFA148592E3222604B0E7 /* CocoaSSDP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaSSDP.xcconfig; sourceTree = "<group>"; };
-		9D8111890161E0B0E4346C5C5B1C6F28 /* KissXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KissXML.xcconfig; sourceTree = "<group>"; };
+		A155E36B3BC29D57D5DF02558F045137 /* CocoaSSDP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CocoaSSDP.modulemap; sourceTree = "<group>"; };
 		A19A919E13EBB91D5567E596D840DFA9 /* Pods-DLNACast-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLNACast-acknowledgements.plist"; sourceTree = "<group>"; };
 		A36C325C07EE05B776AC315BAC42FEF8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		A372DF8F03C017BA483EC8A81E4DFD1D /* SOAPEngineOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SOAPEngineOSX.framework; sourceTree = "<group>"; };
-		A9C8649EDB609592B354B63F2A074568 /* DDXMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElement.h; path = KissXML/DDXMLElement.h; sourceTree = "<group>"; };
-		ACB7404FCA67BE70E2F7F96B8AB78617 /* CocoaSSDP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CocoaSSDP.modulemap; sourceTree = "<group>"; };
+		A6DDE5DB3295FAD5CF11876AC7772DF1 /* DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXML.h; path = KissXML/DDXML.h; sourceTree = "<group>"; };
+		A78CBCBD9DB16CAA59BCECEC56C28B54 /* KissXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KissXML.xcconfig; sourceTree = "<group>"; };
 		AEE00D841EF35760E1393BA469500B85 /* Pods_DLNACast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLNACast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3DBCCA49C6F689433DD73045B640341 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B658D0097A0921CF6FAE179502226BFC /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
-		B750838AF3E89E7B6C94C05A09BA1911 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
-		BEAD724517108FFAE412A8532D9D9485 /* CocoaSSDP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaSSDP-prefix.pch"; sourceTree = "<group>"; };
+		B30009A03C4411C6DAC6B66ECDBC6533 /* DDXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLNode.h; path = KissXML/DDXMLNode.h; sourceTree = "<group>"; };
+		B84DD4417996669FC61A209CD6705B06 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		BDE2D53D82E7392AEC04738338E7F5D3 /* DDXMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLDocument.m; path = KissXML/DDXMLDocument.m; sourceTree = "<group>"; };
+		BFD252660F151680C9A14B5357C3C46A /* NSString+DDXML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DDXML.m"; path = "KissXML/Categories/NSString+DDXML.m"; sourceTree = "<group>"; };
+		C151DD9C55609CACF261DF26ED89D7DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C156F63ABD0B9F3B0AB110B9F58CD551 /* SSDPService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPService.h; path = Classes/SSDPService.h; sourceTree = "<group>"; };
 		C669F2CB061EE7AA20CC25E0C7D74EBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC7A275189520C9B30EC5A30DED3E5F0 /* Pods-DLNACast-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLNACast-frameworks.sh"; sourceTree = "<group>"; };
-		CD661BCB450E33065045B478E22DC0F4 /* CocoaSSDP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaSSDP-umbrella.h"; sourceTree = "<group>"; };
-		CEB1D0E83BD0A85626CA944E9680CEA5 /* SSDPServiceTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPServiceTypes.h; path = Classes/SSDPServiceTypes.h; sourceTree = "<group>"; };
-		D26D235667A97BCB72250967B62C900D /* KissXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KissXML-dummy.m"; sourceTree = "<group>"; };
-		D46398B2EEC9E6CF37CEA9FB0FB0F9E9 /* CocoaSSDP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaSSDP-dummy.m"; sourceTree = "<group>"; };
-		DB96929E0AD4F3ED99B4CB0FBDC23E22 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		DC2F64B8BE68F89DFEF232E5F450D660 /* DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXML.h; path = KissXML/DDXML.h; sourceTree = "<group>"; };
-		E289DBD30DE95AD4F16C64EE67BFCA0F /* NSString+DDXML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DDXML.m"; path = "KissXML/Categories/NSString+DDXML.m"; sourceTree = "<group>"; };
-		EB4CA7F5C067ED0A5092D5FED7C75FEC /* DDXMLPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLPrivate.h; path = KissXML/Private/DDXMLPrivate.h; sourceTree = "<group>"; };
-		EEAA4B228A1E0412F4114A7423764D1E /* DDXMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLDocument.h; path = KissXML/DDXMLDocument.h; sourceTree = "<group>"; };
-		F2C37547F6160E29BC9A10AE64F696EA /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElementAdditions.h; path = KissXML/Additions/DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		D7F718788D75B7D2C4A2EA3453251AB2 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		DC1AF57747C10B62A02B76A5B18F975B /* SSDPServiceBrowser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSDPServiceBrowser.m; path = Classes/SSDPServiceBrowser.m; sourceTree = "<group>"; };
+		DCB1B2202786EFDC104BF6C1B69089B8 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		E04A8592D8B5F931BE3000BB6468DAAC /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		E0F79134D3EDEB41E49289B8AE5E0B40 /* DDXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLNode.m; path = KissXML/DDXMLNode.m; sourceTree = "<group>"; };
+		E12FCDF190EAA02BA13B9533FAE3B79D /* DDXMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElement.h; path = KissXML/DDXMLElement.h; sourceTree = "<group>"; };
+		E1EFDB4CF69BFFAEDF97FD681FA05B37 /* DDXMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLDocument.h; path = KissXML/DDXMLDocument.h; sourceTree = "<group>"; };
+		E2BAFA5C4D204EEC81BCBF0A37D2A55C /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		E2C851B034888EA9CB6F2AEC5F0F23D6 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElementAdditions.h; path = KissXML/Additions/DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		E4BD85EDADC03698C754B0753FA9693A /* CocoaSSDP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaSSDP-prefix.pch"; sourceTree = "<group>"; };
+		E99C8FCD785DD8FD54736978994629F9 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		ECDB569033D3D60899F058BBE37C7C8F /* SSDPService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSDPService.m; path = Classes/SSDPService.m; sourceTree = "<group>"; };
+		F317D74B0FD085DA17DD289BAFD45C0D /* KissXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KissXML-dummy.m"; sourceTree = "<group>"; };
+		F41F5525340391C9356FB3B906685259 /* KissXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KissXML.modulemap; sourceTree = "<group>"; };
+		F43FB12B29D8459CC0C47D9659FA8B28 /* DDXMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElement.m; path = KissXML/DDXMLElement.m; sourceTree = "<group>"; };
 		F6E38A742EA4356899E3E00857638003 /* Pods-DLNACast-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLNACast-resources.sh"; sourceTree = "<group>"; };
+		FF2A6CA697082A879CC705EF2962C68F /* SSDPServiceBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPServiceBrowser.h; path = Classes/SSDPServiceBrowser.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,27 +199,6 @@
 			name = "OS X";
 			sourceTree = "<group>";
 		};
-		384106F05AC138CB1A2CABA1F2521373 /* CocoaAsyncSocket */ = {
-			isa = PBXGroup;
-			children = (
-				810BFE45983912CD7DD20ADCE123A48A /* GCDAsyncSocket.h */,
-				B750838AF3E89E7B6C94C05A09BA1911 /* GCDAsyncSocket.m */,
-				91DB072FD03288EEC20EFEE95AA5623F /* GCDAsyncUdpSocket.h */,
-				DB96929E0AD4F3ED99B4CB0FBDC23E22 /* GCDAsyncUdpSocket.m */,
-				9FCAA5E200A12C260DBFC4BA78B8B801 /* Support Files */,
-			);
-			path = CocoaAsyncSocket;
-			sourceTree = "<group>";
-		};
-		3E0D404909449119B1312F7D771F7113 /* SOAPEngine */ = {
-			isa = PBXGroup;
-			children = (
-				16BCC2C7184FB35528BA8131363BA253 /* SOAPEngine.h */,
-				A674BDDE1BB985A76B24642F56DA4B32 /* Frameworks */,
-			);
-			path = SOAPEngine;
-			sourceTree = "<group>";
-		};
 		45D29F6B887655A00622CD4E02AA5FD2 /* Pods-DLNACast */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,18 +228,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7BC5F2152391C08D5B3552FD5F617889 /* Support Files */ = {
+		594715507207DD4B7527F13DAA6614B3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B3DBCCA49C6F689433DD73045B640341 /* Info.plist */,
-				3B39D3C8E44374D09AF94BF0C73A82CA /* KissXML.modulemap */,
-				9D8111890161E0B0E4346C5C5B1C6F28 /* KissXML.xcconfig */,
-				D26D235667A97BCB72250967B62C900D /* KissXML-dummy.m */,
-				3B5B13DB88B6899B7B18FFA8809BE4B9 /* KissXML-prefix.pch */,
-				7FB14A53E673CF69011813C7A036F2BE /* KissXML-umbrella.h */,
+				A155E36B3BC29D57D5DF02558F045137 /* CocoaSSDP.modulemap */,
+				76D63BDCD45483C7B764F95B01DD2FC3 /* CocoaSSDP.xcconfig */,
+				6AC416386B069EA57701EC3B5654333A /* CocoaSSDP-dummy.m */,
+				E4BD85EDADC03698C754B0753FA9693A /* CocoaSSDP-prefix.pch */,
+				424929836EAA9E597F7E41FDF5A57445 /* CocoaSSDP-umbrella.h */,
+				66734EA3FE4DF6B3163818ED255706F0 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/KissXML";
+			path = "../Target Support Files/CocoaSSDP";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -270,32 +247,73 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				1158253D7C0D6CF9910AE931978F3ADA /* Frameworks */,
-				CF3FAE79BD72EC8A68A27C3D0001197D /* Pods */,
+				E80ED0A95E09F7C24AF6D05FC8330A6F /* Pods */,
 				50B116D4442F3D38990DC4F2E9E3BDE9 /* Products */,
 				BC981D8FB2C532FA56E8FB34FE50CAD7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9FCAA5E200A12C260DBFC4BA78B8B801 /* Support Files */ = {
+		91CD67F4E69E3843E1AF109144DD8EBE /* CocoaSSDP */ = {
 			isa = PBXGroup;
 			children = (
-				B658D0097A0921CF6FAE179502226BFC /* CocoaAsyncSocket.modulemap */,
-				69DA1F3EC2B3CDEFD4FD0A5498926B88 /* CocoaAsyncSocket.xcconfig */,
-				551446865805F0708A801361A5E0F9EE /* CocoaAsyncSocket-dummy.m */,
-				6B954952A815EC0389290E788D373007 /* CocoaAsyncSocket-prefix.pch */,
-				184D733261811CE465B1ACBC6717D92F /* CocoaAsyncSocket-umbrella.h */,
-				1704DC7B8721EDDAAE243B0B86BAEFFE /* Info.plist */,
+				C156F63ABD0B9F3B0AB110B9F58CD551 /* SSDPService.h */,
+				ECDB569033D3D60899F058BBE37C7C8F /* SSDPService.m */,
+				FF2A6CA697082A879CC705EF2962C68F /* SSDPServiceBrowser.h */,
+				DC1AF57747C10B62A02B76A5B18F975B /* SSDPServiceBrowser.m */,
+				60B352CAA6F033179FE84D9ACFF9CB5E /* SSDPServiceTypes.h */,
+				7ED80945D1EC69160DDC38BCB24BB081 /* SSDPServiceTypes.m */,
+				594715507207DD4B7527F13DAA6614B3 /* Support Files */,
+			);
+			path = CocoaSSDP;
+			sourceTree = "<group>";
+		};
+		93B887D5FBB51ED63F2B7BA0716DC895 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				A6DDE5DB3295FAD5CF11876AC7772DF1 /* DDXML.h */,
+				E1EFDB4CF69BFFAEDF97FD681FA05B37 /* DDXMLDocument.h */,
+				BDE2D53D82E7392AEC04738338E7F5D3 /* DDXMLDocument.m */,
+				E12FCDF190EAA02BA13B9533FAE3B79D /* DDXMLElement.h */,
+				F43FB12B29D8459CC0C47D9659FA8B28 /* DDXMLElement.m */,
+				E2C851B034888EA9CB6F2AEC5F0F23D6 /* DDXMLElementAdditions.h */,
+				8B2CE232C2B9CF8705D25E235F0DE24D /* DDXMLElementAdditions.m */,
+				B30009A03C4411C6DAC6B66ECDBC6533 /* DDXMLNode.h */,
+				E0F79134D3EDEB41E49289B8AE5E0B40 /* DDXMLNode.m */,
+				344F185654A618B3584811F7E6FAF92D /* DDXMLPrivate.h */,
+				4FACC2D9622153B8360190B2486AFB08 /* KissXML.h */,
+				0A3DE8577C5981179B13E5DB32C2FD15 /* NSString+DDXML.h */,
+				BFD252660F151680C9A14B5357C3C46A /* NSString+DDXML.m */,
+				A9FB54AA374EE40FCC23BAA74AC921DE /* Support Files */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		A9FB54AA374EE40FCC23BAA74AC921DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14785274DBDDB69E55603D2EE213CCC6 /* Info.plist */,
+				F41F5525340391C9356FB3B906685259 /* KissXML.modulemap */,
+				A78CBCBD9DB16CAA59BCECEC56C28B54 /* KissXML.xcconfig */,
+				F317D74B0FD085DA17DD289BAFD45C0D /* KissXML-dummy.m */,
+				17D6EC87CED7A8D7CE977A0C758769A2 /* KissXML-prefix.pch */,
+				824DD80F6DC6409DD9CC4E1FAFBE6BE2 /* KissXML-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KissXML";
+			sourceTree = "<group>";
+		};
+		BA4B0CCE6A25B7E405B5AA4ADAAB9535 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2BAFA5C4D204EEC81BCBF0A37D2A55C /* CocoaAsyncSocket.modulemap */,
+				152DF977F00017B04C73241C5A14AB87 /* CocoaAsyncSocket.xcconfig */,
+				D7F718788D75B7D2C4A2EA3453251AB2 /* CocoaAsyncSocket-dummy.m */,
+				E99C8FCD785DD8FD54736978994629F9 /* CocoaAsyncSocket-prefix.pch */,
+				329D52F35FD709F7066A1BD71E57BE40 /* CocoaAsyncSocket-umbrella.h */,
+				C151DD9C55609CACF261DF26ED89D7DA /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CocoaAsyncSocket";
-			sourceTree = "<group>";
-		};
-		A674BDDE1BB985A76B24642F56DA4B32 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A372DF8F03C017BA483EC8A81E4DFD1D /* SOAPEngineOSX.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC981D8FB2C532FA56E8FB34FE50CAD7 /* Targets Support Files */ = {
@@ -306,64 +324,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C7A3BFA72F2FB9FF72A2188F88147BD5 /* CocoaSSDP */ = {
+		D72DE306DFFB96DBE4A2C4670AE2F607 /* CocoaAsyncSocket */ = {
 			isa = PBXGroup;
 			children = (
-				863DC3BE9B8690F0E85C8BCE3B33D1B8 /* SSDPService.h */,
-				497A69DD51485005B0D1EF3D28E47255 /* SSDPService.m */,
-				33A1A1388930820CC184B15A3DDF7134 /* SSDPServiceBrowser.h */,
-				941573B4328F0290C7585BDFCF2C7064 /* SSDPServiceBrowser.m */,
-				CEB1D0E83BD0A85626CA944E9680CEA5 /* SSDPServiceTypes.h */,
-				03562BAC079A85F9CA1E38411F079CD7 /* SSDPServiceTypes.m */,
-				D1651877C7B9E2265E023D7710CDC337 /* Support Files */,
+				80674A72A0B47DE4B13094B4AE4E3D14 /* GCDAsyncSocket.h */,
+				B84DD4417996669FC61A209CD6705B06 /* GCDAsyncSocket.m */,
+				DCB1B2202786EFDC104BF6C1B69089B8 /* GCDAsyncUdpSocket.h */,
+				E04A8592D8B5F931BE3000BB6468DAAC /* GCDAsyncUdpSocket.m */,
+				BA4B0CCE6A25B7E405B5AA4ADAAB9535 /* Support Files */,
 			);
-			path = CocoaSSDP;
+			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
-		CF3FAE79BD72EC8A68A27C3D0001197D /* Pods */ = {
+		E80ED0A95E09F7C24AF6D05FC8330A6F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				384106F05AC138CB1A2CABA1F2521373 /* CocoaAsyncSocket */,
-				C7A3BFA72F2FB9FF72A2188F88147BD5 /* CocoaSSDP */,
-				E0CBD071B554E407F42F7A7E217D4B4D /* KissXML */,
-				3E0D404909449119B1312F7D771F7113 /* SOAPEngine */,
+				D72DE306DFFB96DBE4A2C4670AE2F607 /* CocoaAsyncSocket */,
+				91CD67F4E69E3843E1AF109144DD8EBE /* CocoaSSDP */,
+				93B887D5FBB51ED63F2B7BA0716DC895 /* KissXML */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		D1651877C7B9E2265E023D7710CDC337 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ACB7404FCA67BE70E2F7F96B8AB78617 /* CocoaSSDP.modulemap */,
-				98B79467BB2DFA148592E3222604B0E7 /* CocoaSSDP.xcconfig */,
-				D46398B2EEC9E6CF37CEA9FB0FB0F9E9 /* CocoaSSDP-dummy.m */,
-				BEAD724517108FFAE412A8532D9D9485 /* CocoaSSDP-prefix.pch */,
-				CD661BCB450E33065045B478E22DC0F4 /* CocoaSSDP-umbrella.h */,
-				4C7BBBC88493A456605096438831F126 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CocoaSSDP";
-			sourceTree = "<group>";
-		};
-		E0CBD071B554E407F42F7A7E217D4B4D /* KissXML */ = {
-			isa = PBXGroup;
-			children = (
-				DC2F64B8BE68F89DFEF232E5F450D660 /* DDXML.h */,
-				EEAA4B228A1E0412F4114A7423764D1E /* DDXMLDocument.h */,
-				4DB342ED55B74C2A8D29CB71EAB4DEF2 /* DDXMLDocument.m */,
-				A9C8649EDB609592B354B63F2A074568 /* DDXMLElement.h */,
-				9412F1F5ED4F1CDAD138A1557E65A46C /* DDXMLElement.m */,
-				F2C37547F6160E29BC9A10AE64F696EA /* DDXMLElementAdditions.h */,
-				487310903C10BFD4975C7DA218929E0B /* DDXMLElementAdditions.m */,
-				75AF08DEC48CFEB576A7DE628D09E42B /* DDXMLNode.h */,
-				2E25E0D8395EF7E6E95974FE344A4D93 /* DDXMLNode.m */,
-				EB4CA7F5C067ED0A5092D5FED7C75FEC /* DDXMLPrivate.h */,
-				368B92EF3FE6A87F89393B4565BDE8F6 /* KissXML.h */,
-				49BF2A6229C795EEE929C6B55E4D3ACC /* NSString+DDXML.h */,
-				E289DBD30DE95AD4F16C64EE67BFCA0F /* NSString+DDXML.m */,
-				7BC5F2152391C08D5B3552FD5F617889 /* Support Files */,
-			);
-			path = KissXML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -645,7 +625,7 @@
 		};
 		082BF6EDA9AA2A537508FA3EB85C9D8A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98B79467BB2DFA148592E3222604B0E7 /* CocoaSSDP.xcconfig */;
+			baseConfigurationReference = 76D63BDCD45483C7B764F95B01DD2FC3 /* CocoaSSDP.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -735,7 +715,7 @@
 		};
 		3DA261DFEC0E4C2E6AF8CA53D601AA31 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D8111890161E0B0E4346C5C5B1C6F28 /* KissXML.xcconfig */;
+			baseConfigurationReference = A78CBCBD9DB16CAA59BCECEC56C28B54 /* KissXML.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -769,7 +749,7 @@
 		};
 		4E8EB671F876F77901AFEA741A2F04C6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98B79467BB2DFA148592E3222604B0E7 /* CocoaSSDP.xcconfig */;
+			baseConfigurationReference = 76D63BDCD45483C7B764F95B01DD2FC3 /* CocoaSSDP.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -803,7 +783,7 @@
 		};
 		6F97D138BAFD0EBCE5068144F13B3A4D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69DA1F3EC2B3CDEFD4FD0A5498926B88 /* CocoaAsyncSocket.xcconfig */;
+			baseConfigurationReference = 152DF977F00017B04C73241C5A14AB87 /* CocoaAsyncSocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -837,7 +817,7 @@
 		};
 		7FB8A8414437ED2DF4719275096056E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D8111890161E0B0E4346C5C5B1C6F28 /* KissXML.xcconfig */;
+			baseConfigurationReference = A78CBCBD9DB16CAA59BCECEC56C28B54 /* KissXML.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -945,7 +925,7 @@
 		};
 		D6F88873D2B4EFE13B09E5A807C69CCB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69DA1F3EC2B3CDEFD4FD0A5498926B88 /* CocoaAsyncSocket.xcconfig */;
+			baseConfigurationReference = 152DF977F00017B04C73241C5A14AB87 /* CocoaAsyncSocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
