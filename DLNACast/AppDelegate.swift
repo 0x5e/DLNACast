@@ -64,14 +64,22 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     @IBAction func toggleAction(_ sender: NSMenuItem) {
         toggleOn = !toggleOn
         if toggleOn {
+            print("Start DLNA Discovery")
             service.startDiscovery()
         } else {
+            print("Stop DLNA Discovery")
             service.stopDiscovery()
         }
     }
     
     @IBAction func selectAction(_ sender: NSMenuItem) {
 //        sender.state = .on
+        for device in service.deviceList {
+            if device.uuid != sender.keyEquivalent {
+                continue
+            }
+            service.playAction(device: device)
+        }
     }
     
     @IBAction func settingAction(_ sender: NSMenuItem) {
