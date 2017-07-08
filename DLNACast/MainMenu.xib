@@ -14,8 +14,10 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="6hl-FF-YMc" userLabel="Delegate" customClass="AppDelegate" customModule="DLNACast" customModuleProvider="target">
             <connections>
-                <outlet property="separatorItem" destination="Zjs-qx-3UV" id="YXw-sW-Ezk"/>
+                <outlet property="separatorItem" destination="Zjs-qx-3UV" id="f5m-UC-1E1"/>
+                <outlet property="statusItem" destination="dRJ-4n-Yzg" id="Atj-5d-mYj"/>
                 <outlet property="statusMenu" destination="W48-6f-4Dl" id="x1z-R0-9F9"/>
+                <outlet property="toggleItem" destination="WUJ-BW-gIG" id="F9r-5p-KA5"/>
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
@@ -27,17 +29,14 @@
                         <action selector="undo:" target="-1" id="M6e-cu-g7V"/>
                     </connections>
                 </menuItem>
-                <menuItem title="Open DLNA" id="WUJ-BW-gIG" userLabel="Switch">
+                <menuItem title="Open DLNA" id="WUJ-BW-gIG" userLabel="Toggle">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="toggleAction:" target="6hl-FF-YMc" id="AgM-RH-QwE"/>
                     </connections>
                 </menuItem>
-                <menuItem isSeparatorItem="YES" id="Zjs-qx-3UV" userLabel="--------"/>
-                <menuItem title="Loading..." hidden="YES" enabled="NO" id="tD8-t4-muT" userLabel="Loading...">
-                    <modifierMask key="keyEquivalentModifierMask"/>
-                </menuItem>
-                <menuItem isSeparatorItem="YES" id="S9r-PU-tmA" userLabel="--------"/>
+                <menuItem isSeparatorItem="YES" hidden="YES" id="Zjs-qx-3UV" userLabel="--------"/>
+                <menuItem isSeparatorItem="YES" id="4pX-wo-Z7j" userLabel="--------"/>
                 <menuItem title="Setting" keyEquivalent="，" id="4gz-ab-CAk" userLabel="Setting">
                     <connections>
                         <action selector="settingAction:" target="6hl-FF-YMc" id="BUA-zp-8g5"/>
@@ -56,9 +55,6 @@
                     </connections>
                 </menuItem>
             </items>
-            <connections>
-                <outlet property="delegate" destination="6hl-FF-YMc" id="ivW-Fo-p2l"/>
-            </connections>
             <point key="canvasLocation" x="139" y="165.5"/>
         </menu>
     </objects>

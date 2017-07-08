@@ -8,8 +8,13 @@
 
 import CocoaSSDP
 
+public protocol DLNADiscoveryDelegate: class {
+    func dlna(service: DLNAService, didFind device: DLNADevice)
+}
+
 public class DLNAService: SSDPServiceBrowserDelegate {
     var ssdpService: SSDPServiceBrowser!
+    weak var delegate: DLNADiscoveryDelegate?
     
     init() {
         ssdpService = SSDPServiceBrowser(serviceType: SSDPServiceType_UPnP_AVTransport1)
@@ -21,27 +26,25 @@ public class DLNAService: SSDPServiceBrowserDelegate {
     
     public func startDiscovery() {
         isSearching = true
+        deviceList.removeAll()
         ssdpService.startBrowsingForServices()
     }
     
     public func stopDiscovery() {
         isSearching = false
         ssdpService.stopBrowsingForServices()
-        deviceList.removeAll()
     }
     
     // MARK: SSDPServiceBrowserDelegate
     
     public func ssdpBrowser(_ browser: SSDPServiceBrowser!, didFind service: SSDPService!) {
-        for dlnaDevice in deviceList {
-            if dlnaDevice.uuid == service.uniqueServiceName {
-                return
-            }
-        }
-        
         let dlnaDevice = DLNADevice(ssdpService: service)!
         deviceList.append(dlnaDevice)
         print("DLNA device found: \(dlnaDevice.name!)")
+        
+        if let delegate = self.delegate {
+            delegate.dlna(service: self, didFind: dlnaDevice)
+        }
     }
     
     public func ssdpBrowser(_ browser: SSDPServiceBrowser!, didRemove service: SSDPService!) {

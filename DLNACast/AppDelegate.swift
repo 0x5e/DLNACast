@@ -9,71 +9,57 @@
 import Cocoa
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate, DLNADiscoveryDelegate {
     
     @IBOutlet weak var statusMenu: NSMenu!
+    @IBOutlet weak var statusItem: NSMenuItem!
+    @IBOutlet weak var toggleItem: NSMenuItem!
     @IBOutlet weak var separatorItem: NSMenuItem!
     
-    var statusItem: NSStatusItem!
+    var statusBarItem: NSStatusItem!
     var service: DLNAService!
     var toggleOn = false
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         
-        statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
+        statusBarItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
         let image : NSImage = NSImage(named: NSImage.Name(rawValue: "menu_icon"))!
         image.isTemplate = true
-        statusItem.image = image
-        statusItem.menu = statusMenu
+        statusBarItem.image = image
+        statusBarItem.menu = statusMenu
         
         service = DLNAService()
+        service.delegate = self
     }
     
     // MARK: Menu
-    
-    func menuWillOpen(_ menu: NSMenu) {
-        if toggleOn {
-            statusMenu.items[0].title = "DLNA: On"
-            statusMenu.items[1].title = "Close DLNA"
-        } else {
-            statusMenu.items[0].title = "DLNA: Off"
-            statusMenu.items[1].title = "Open DLNA"
-        }
-        
-        reloadDeviceItems()
-    }
-    
-    func reloadDeviceItems() {
-        if service.deviceList.count > 0 {
-            separatorItem.isHidden = false
-        } else {
-            separatorItem.isHidden = true
-        }
-        
-        let startIndex = 3
-        while !statusMenu.items[startIndex].isSeparatorItem {
-            statusMenu.removeItem(at: startIndex)
-        }
-        
-        for device in service.deviceList {
-            let item = NSMenuItem(title: device.name!, action: #selector(selectAction), keyEquivalent: device.uuid!)
-            statusMenu.insertItem(item, at: startIndex)
-        }
-    }
     
     @IBAction func toggleAction(_ sender: NSMenuItem) {
         toggleOn = !toggleOn
         if toggleOn {
             print("Start DLNA Discovery")
+            statusItem.title = "DLNA: On"
+            toggleItem.title = "Close DLNA"
             service.startDiscovery()
         } else {
             print("Stop DLNA Discovery")
+            statusItem.title = "DLNA: Off"
+            toggleItem.title = "Open DLNA"
             service.stopDiscovery()
+            
+            // remove device list
+            separatorItem.isHidden = true
+            for _ in 0..<service.deviceList.count {
+                statusMenu.removeItem(at: 3)
+            }
         }
     }
     
     @IBAction func selectAction(_ sender: NSMenuItem) {
-//        sender.state = .on
+        for item in statusMenu.items {
+            item.state = (item == sender) ? .on : .off
+        }
+        
         for device in service.deviceList {
             if device.uuid != sender.keyEquivalent {
                 continue
@@ -89,6 +75,15 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     @IBAction func aboutAction(_ sender: NSMenuItem) {
         
     }
-
+    
+    // MARK: DLNADiscoveryDelegate
+    
+    func dlna(service: DLNAService, didFind device: DLNADevice) {
+        if service.deviceList.count == 1 {
+            separatorItem.isHidden = false
+        }
+        
+        statusMenu.insertItem(withTitle: device.name!, action: #selector(selectAction), keyEquivalent: device.uuid!, at: 2 + service.deviceList.count)
+    }
 }
 
