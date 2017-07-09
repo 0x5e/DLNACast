@@ -12,11 +12,11 @@ import KissXML
 public class SOAPAction {
     var request: URLRequest
     
-    public init(device: DLNADevice, serviceType: String, actionName: String, params: [String: String]) {
+    public init(device: DLNADevice, serviceType: String, actionName: String, params: [String: Any]) {
         let url = URL(string: device.controlURL, relativeTo: device.location)!
         request = URLRequest(url: url)
         request.setValue("text/xml; charset=\"utf-8\"", forHTTPHeaderField: "Content-Type")
-        request.setValue("\(serviceType)#\(actionName)", forHTTPHeaderField: "SOAPACTION")
+        request.setValue("\(serviceType)#\(actionName)", forHTTPHeaderField: "SOAPAction")
         
         let path = Bundle.main.path(forResource: "action", ofType: "xml")
         let data = try! Data(contentsOf: URL(fileURLWithPath: path!))
@@ -30,7 +30,13 @@ public class SOAPAction {
         actionNode.namespaces?[0].stringValue = serviceType
         
         for (key, value) in params {
-            actionNode.addChild(DDXMLElement(name: key, stringValue: value))
+            let node = DDXMLElement(name: key)
+            if value is DDXMLElement {
+                node.addChild(value as! DDXMLElement)
+            } else if value is String {
+                node.stringValue = value as? String
+            }
+            actionNode.addChild(node)
         }
         
         request.httpMethod = "POST"

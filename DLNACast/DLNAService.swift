@@ -7,6 +7,7 @@
 //
 
 import CocoaSSDP
+import KissXML
 
 public protocol DLNADiscoveryDelegate: class {
     func dlna(service: DLNAService, didFind device: DLNADevice)
@@ -63,12 +64,13 @@ public class DLNAService: SSDPServiceBrowserDelegate {
         
 //        let mediaUrl = "https://qgy18.com/jsvideo/MPEG1/fox.mpg"
 //        let mediaUrl = "http://flv.bn.netease.com/tvmrepo/2012/7/C/7/E868IGRC7-mobile.mp4"
+//        let mediaUrl = "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"
 //        let mediaUrl = "rtmp://192.168.0.101:1935/live1/room1"
-        let mediaUrl = "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"
+        let mediaUrl = "http://192.168.0.101/test.mp4"
         
-//        let meta = try! String(contentsOf: Bundle.main.url(forResource: "meta", withExtension: "xml")!)
+        let meta = try! DDXMLDocument(xmlString: String(contentsOf: Bundle.main.url(forResource: "meta", withExtension: "xml")!), options: 0)
         
-        let action = SOAPAction(device: device, serviceType: SSDPServiceType_UPnP_AVTransport1, actionName: "SetAVTransportURI", params: ["CurrentURI": mediaUrl, "InstanceID": "0", "CurrentURIMetaData": ""])
+        let action = SOAPAction(device: device, serviceType: SSDPServiceType_UPnP_AVTransport1, actionName: "SetAVTransportURI", params: ["CurrentURI": mediaUrl, "InstanceID": "0", "CurrentURIMetaData": meta])
         action.action(successHandler: {
             print("SetAVTransportURI action success")
             
