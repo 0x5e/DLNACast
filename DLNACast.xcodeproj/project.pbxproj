@@ -12,7 +12,6 @@
 		6D2C762B1F0FBFF900EF1679 /* DLNADevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C762A1F0FBFF900EF1679 /* DLNADevice.swift */; };
 		6D2C762F1F10B88F00EF1679 /* SOAPAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C762E1F10B88F00EF1679 /* SOAPAction.swift */; };
 		6D2C76311F10E57900EF1679 /* action.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C76301F10E57900EF1679 /* action.xml */; };
-		6D2C76331F10F34A00EF1679 /* meta.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C76321F10F26900EF1679 /* meta.xml */; };
 		6D6823821F0EB66B00FE6AF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6823811F0EB66B00FE6AF5 /* AppDelegate.swift */; };
 		6D6823841F0EB66B00FE6AF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6823831F0EB66B00FE6AF5 /* ViewController.swift */; };
 		6D6823861F0EB66B00FE6AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6823851F0EB66B00FE6AF5 /* Assets.xcassets */; };
@@ -26,7 +25,6 @@
 		6D2C762A1F0FBFF900EF1679 /* DLNADevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLNADevice.swift; sourceTree = "<group>"; };
 		6D2C762E1F10B88F00EF1679 /* SOAPAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOAPAction.swift; sourceTree = "<group>"; };
 		6D2C76301F10E57900EF1679 /* action.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = action.xml; sourceTree = "<group>"; };
-		6D2C76321F10F26900EF1679 /* meta.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = meta.xml; sourceTree = "<group>"; };
 		6D68237E1F0EB66B00FE6AF5 /* DLNACast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLNACast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6823811F0EB66B00FE6AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D6823831F0EB66B00FE6AF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				6D68238A1F0EB66B00FE6AF5 /* Info.plist */,
 				6D68238B1F0EB66B00FE6AF5 /* DLNACast.entitlements */,
 				6D2C76301F10E57900EF1679 /* action.xml */,
-				6D2C76321F10F26900EF1679 /* meta.xml */,
 			);
 			path = DLNACast;
 			sourceTree = "<group>";
@@ -166,7 +163,6 @@
 				6D6823861F0EB66B00FE6AF5 /* Assets.xcassets in Resources */,
 				6D6823C61F0F91F900FE6AF5 /* MainMenu.xib in Resources */,
 				6D2C76311F10E57900EF1679 /* action.xml in Resources */,
-				6D2C76331F10F34A00EF1679 /* meta.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
